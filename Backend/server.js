@@ -12,8 +12,8 @@ const db = mysql.createConnection({
 host: "sql5.freemysqlhosting.net" ,
 user: 'sql5677985',
 password: 'Nh2sSBZIv5',
-database: 'ecom'
-
+database: 'ecom',
+port: '3306'
 })
 
 
