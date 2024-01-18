@@ -9,9 +9,9 @@ const app = express()
 app.use(cors())
 
 const db = mysql.createConnection({
-host: "localhost" ,
-user: 'root',
-password: 'password',
+host: "sql5.freemysqlhosting.net" ,
+user: 'sql5677985',
+password: 'Nh2sSBZIv5',
 database: 'ecom'
 
 })
