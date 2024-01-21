@@ -9,10 +9,10 @@ const app = express()
 app.use(cors())
 
 const db = mysql.createConnection({
-host: "sql5.freemysqlhosting.net" ,
-user: 'sql5677985',
-password: 'Nh2sSBZIv5',
-database: 'Ecom',
+host: "sql5.freesqldatabase.com" ,
+user: 'sql5678621',
+password: '9a7uRrpWDH',
+database: 'sql5678621',
 port: '3306'
 })
 
