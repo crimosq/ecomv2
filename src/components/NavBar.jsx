@@ -13,6 +13,9 @@ const NavBar = () => (
       <li className="options"><Link to='/products'>Product</Link></li>
       <li className="options"><Link to='/contact'>Contact</Link></li>
     </ul>
+    < div className="cart-icon">
+    <img className='shoppingCart' src='images/shopping-bag.png' alt="Logo" />
+    </div>
   </nav>
 );
 

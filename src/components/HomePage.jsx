@@ -55,27 +55,27 @@ const HomePage = () => {
       onSwiper={(swiper) => console.log(swiper)}
     >
       <SwiperSlide>
-        <div className="box-pop">
+      <a href="/products" className="box-pop">
          
             <img className='img-c' src='images/AIKON_Automatic_Chronograph_Blue.png' alt="Maurice" />
             <h4>Maurice Lacroix</h4>
-        </div>
+        </a>
       </SwiperSlide>
 
       <SwiperSlide>
-        <div className="box-pop">
+      <a href="/products" className="box-pop">
          
             <img className='img-c' src='images/A-15_Pilot_png.webp' alt="Bulova" />
             <h4>Bulova</h4>  
-        </div>
+        </a>
       </SwiperSlide>
 
       <SwiperSlide>
-        <div className="box-pop">
+      <a href="/products" className="box-pop">
           
             <img className='img-c' src='images/grandseiko.png' alt="Grand Seiko" />
             <h4>Grand Seiko</h4>
-        </div>
+        </a>
       </SwiperSlide>
     </Swiper>
     </div>

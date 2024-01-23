@@ -7,6 +7,7 @@
 .main-nav {
   display: flex;
   justify-content: center;
+  align-items: center; 
   width: 100%;
   padding: 1.5em; 
   border-bottom: 2px solid #000;
@@ -90,8 +91,10 @@ a {
 }
 
 .img-c {
-  width:300px;
-  height:300px;
+  width: 100%;
+  height: auto;
+  max-width: 300px;
+  max-height: 300px;
   border-radius: 5px;
 }
 .img-h {
@@ -221,4 +224,28 @@ h4, .price {
 .w-container:hover .image-title {
   opacity: 1;
   transform: translate(-50%, -40%); 
+}
+
+.main-nav .shoppingCart {
+  height: 30px; /* Adjust the shopping cart icon size */
+}
+.cart-icon {
+  display: flex;
+  align-items: center; /* Aligns the cart icon vertically */
+}
+
+.cart-icon .shoppingCart {
+  height: 30px; /* Adjust as needed */
+  cursor: pointer; /* Optional: Changes cursor to pointer on hover */
+}
+
+@media (max-width: 768px) {
+  .swiper-container {
+    width: 100%;
+  }
+
+  .img-c {
+    max-width: 200px;
+    max-height: 200px;
+  }
 }
